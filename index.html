@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majeed's Portfolio</title>
+    <!--BOOTSTRAP CSS LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--ANIMATE ON SCROLL CSS LINK-->
+    <link rel="stylesheet" href="aos.css">
+    <!--GENERAL CSS LINK-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!--NAVBAR-->
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container flex-lg-column">
+                <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                    <span class="h3 fw-bold d-lg-none d-block">Majeed Alabi</span>
+                    <img src="./images/person.jpg" alt="" class="rounded-circle d-lg-block d-none">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto flex-lg-column text-lg-center text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+    <!--PORTFOLIO WRAPPER-->
+    <div id="portfolio-wrapper">
+
+        <!--HOME-->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up"> I'M A <span class="text-brand">FRONT-END
+                                DEVELOPER</span> BASED IN LAGOS, NIGERIA</h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">My name is <span
+                                class="text-brand">Alabi Majeed Kehinde</span>. I build websites and webapps using
+                            reactJS,javascript and bootstrap.</p>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="https://github.com/MajeedAlabi?tab=repositories" target="_blank"
+                                class="btn btn-brand me-3 design">Explore My Work</a>
+                            <a class="btn btn-brand me-3 design" href="mailto:kehindealabi123@gmail.com"
+                                target="_blank">SEND MAIL</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECT-->
+        <section id="project" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">PROJECT</h6>
+                        <h1>My Recent Projects</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="project-wrapper bg-base rounded-4 shadow-effect">
+                            <div class="project-wrapper-image rounded-4">
+                                <img class="rounded-4" src="./images/project-1.png" alt="">
+                            </div>
+                            <div class="project-wrapper-content p-4">
+                                <h4>Qripsy Restuarant Website</h4>
+                                <p>A mobile responsive restuarant website built with the help of various bootstrap
+                                    templates.</p>
+                                <div>
+                                    <a href="https://majeed-qrispy-restuarant.netlify.app/" target="_blank"
+                                        class="btn2 btn-brand me-3 mt-4 design">LIVE DEMO</a>
+                                    <a href="https://github.com/MajeedAlabi/Qripsy-restuarant-landing-page"
+                                        target="_blank" class="btn2 btn-brand me-3 mt-4 design">GITHUB</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-wrapper bg-base rounded-4 shadow-effect">
+                            <div class="project-wrapper-image rounded-4">
+                                <img class="rounded-4" src="./images/project-2.png" alt="">
+                            </div>
+                            <div class="project-wrapper-content p-4">
+                                <h4>Tenzies App</h4>
+                                <p>A childroom game brought to life with the power of react.Keep rolling till all die
+                                    are the same numbers.</p>
+                                <div>
+                                    <a href="https://majeed-tenzies.netlify.app/" target="_blank"
+                                        class="btn2 btn-brand me-3 mt-4 design">LIVE DEMO</a>
+                                    <a href="https://github.com/MajeedAlabi/Tenzies-App" target="_blank"
+                                        class="btn2 btn-brand me-3 mt-4 design">GITHUB</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="project-wrapper bg-base rounded-4 shadow-effect">
+                            <div class="project-wrapper-image rounded-4">
+                                <img class="rounded-4" src="./images/project-3.png" alt="">
+                            </div>
+                            <div class="project-wrapper-content p-4">
+                                <h4>Vanlife website</h4>
+                                <p>Planning a family trip and you need a van? This is the right place for you!!! This
+                                    website was built using react and react-router</p>
+                                <div>
+                                    <a href="https://majeed-vanlife.netlify.app/" target="_blank"
+                                        class="btn2 btn-brand me-3 mt-4 design">LIVE DEMO</a>
+                                    <a href="https://github.com/MajeedAlabi/Vanlife" target="_blank"
+                                        class="btn2 btn-brand me-3 mt-4 design">GITHUB</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-wrapper bg-base rounded-4 shadow-effect">
+                            <div class="project-wrapper-image rounded-4">
+                                <img class="rounded-4" src="./images/project-4.png" alt="">
+                            </div>
+                            <div class="project-wrapper-content p-4">
+                                <h4>Lissome Landing Page</h4>
+                                <p>A mobile responsive website that shows an organization work force,portfolio and
+                                    services they render. It was built using bootstrap.</p>
+                                <div>
+                                    <a href="https://lissome-bootstrap.netlify.app/" target="_blank"
+                                        class="btn2 btn-brand me-3 mt-4 design">LIVE DEMO</a>
+                                    <a href="https://github.com/MajeedAlabi/Lissome" target="_blank"
+                                        class="btn2 btn-brand me-3 mt-4 design">GITHUB</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--ABOUT-->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">ABOUT ME</h6>
+                        <h4>I am a certified frontend developer aspiring to be a full stack developer. I have a Bsc in
+                            Electrical and Electronics Enginerring. I love building websites, On my free time, i like to
+                            engage myself in javascript challenges.</h4>
+                    </div>
+                </div>
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <h3 class="mb-4 text-brand" data-aos="fade-up" data-aos-delay="300">Certifications</h3>
+                        <div class="row gy-5">
+                            <div class="col-12 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">Scrimba Frontend Developer Career Path</p>
+                                </div>
+                            </div>
+                            <div class="col-12 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class=" mb-2">Scrimba Advanced React course</p>
+                                </div>
+                            </div>
+                            <div class="col-12 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">Scrimba JavaScript Deep Dive course</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-4 text-brand" data-aos="fade-up" data-aos-delay="300">Skills</h3>
+                        <div class="row gy-5">
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">HTML</p>
+                                </div>
+                            </div>
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">CSS</p>
+                                </div>
+                            </div>
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">JavaScript</p>
+                                </div>
+                            </div>
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">React</p>
+                                </div>
+                            </div>
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">Bootstrap</p>
+                                </div>
+                            </div>
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">Figma</p>
+                                </div>
+                            </div>
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">GitHub</p>
+                                </div>
+                            </div>
+                            <div class="col-6 fw-bold" data-aos="fade-up" data-aos-delay="600">
+                                <div class="about-wrapper p-4 bg-base rounded-4 shadow-effect">
+                                    <p class="mb-2">Netlify</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT-->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4 text-center justify-content-center" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">CONTACT</h6>
+                        <h1>Interested in working together? Let's talk
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 mx-auto" data-aos="fade-up">
+                        <h4>Feel free to contact me by clicking on any of the following social platforms listed below. I
+                            will be happy to answer any questions or inquiries that you may need.You can also send me a
+                            mail on kehindealabi123@gmail.com or call me at +234(0)8103286588</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 d-flex justify-content-center mx-auto mt-5">
+                        <a href="mailto:kehindealabi123@gmail.com" target="_blank">
+                            <img src="./images/mail-line.png" alt="">
+                        </a>
+                        <a href="https://www.linkedin.com/in/majeed-alabi-888a26227/" target="_blank">
+                            <img src="./images/linkedin-box-line.png" alt="">
+                        </a>
+                        <a href="https://github.com/MajeedAlabi" target="_blank">
+                            <img src="./images/github-fill.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/alabi.majeed/" target="_blank">
+                            <img src="./images/instagram-line.png" alt="">
+                        </a>
+                        <a href="https://twitter.com/KehindeMajeed" target="_blank">
+                            <img src="./images/twitter-line.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer class="py-5 px-lg-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">© Copyright 2023. All Rights Reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed with 💜 By <a href="#" class="fw-bold">MAJEED</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--BOOTSTRAP JS LINK-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!--ANIMATE ON SCROLL JS LINK-->
+    <script src="aos.js"></script>
+    <!--GENERAL JS LINK-->
+    <script src="index.js"></script>
+</body>
+</html>
